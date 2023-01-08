@@ -9,9 +9,12 @@
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=ed08bab6ef38"
   },
   "dependencies": {
+    "@fontsource/material-icons": "^4.5.4",
+    "@fontsource/roboto": "^4.5.8",
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
@@ -58,5 +61,7 @@
     "typescript": "~4.5.5",
     "vue-loader": "^15.10.1",
     "vue-template-compiler": "^2.6.14"
-  }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "dsmax@0.1.0"
 }
